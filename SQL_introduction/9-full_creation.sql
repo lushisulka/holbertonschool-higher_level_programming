@@ -1,3 +1,5 @@
+--script to list all databases
+
 CREATE TABLE IF NOT EXISTS hbtn_0c_0.second_table(id int, name varchar(256),score int);
 
 INSERT INTO hbtn_0c_0.second_table (id,name,score)
