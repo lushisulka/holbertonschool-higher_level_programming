@@ -1,3 +1,3 @@
---script to list all databases
+-- script to remove databases
 
 DROP DATABASE IF EXISTS hbtn_0c_0;
