@@ -1,3 +1,3 @@
---script to list all databases
+-- script to show columns in a table
 
 SHOW COLUMNS FROM hbtn_0c_0.first_table;
