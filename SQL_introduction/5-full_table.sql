@@ -1,3 +1,3 @@
 -- script to show columns
 
-SHOW COLUMNS FROM first_table;
+SHOW COLUMNS FROM hbtn_0c_0;
