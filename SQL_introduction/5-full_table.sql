@@ -1,3 +1,3 @@
--- script to show columns in a table
+-- script to show columns
 
 SHOW COLUMNS FROM hbtn_0c_0.first_table;
