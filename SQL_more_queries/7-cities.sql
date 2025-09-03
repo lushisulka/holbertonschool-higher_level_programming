@@ -5,6 +5,6 @@ USE hbtn_0d_usa;
 -- Ensure that the table is created only if it does not already exist
 CREATE TABLE IF NOT EXISTS cities (
     id INT PRIMARY KEY UNIQUE NOT NULL AUTO_INCREMENT,
-    state_id INT NOT NULL FOREIGN KEY REFERENCES states(id),
+    state_id INT NOT NULL FOREIGN KEY REFERENCES states(id) ON DELETE CASCADE,
     name VARCHAR(256) NOT NULL,
 );
