@@ -4,7 +4,7 @@ CREATE DATABASE IF NOT EXISTS hbtn_0d_tvshows;
 USE hbtn_0d_tvshows;
 
 -- Create the tv_shows table
-CREATE TABLE `tv_shows` (
+CREATE TABLE `tv_show_genres` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(256) NOT NULL,
   PRIMARY KEY (`id`)
